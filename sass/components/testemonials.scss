@@ -1,0 +1,37 @@
+.testemonials{
+    width: 95%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba($color-secondary, 0.2);
+    padding: 1.5rem;
+    transform: skewX(-15deg);
+    box-shadow: 10px 15px 37px -9px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 10px 15px 37px -9px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 15px 37px -9px rgba(0,0,0,0.4);
+
+    &__img{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: skewX(15deg);
+        div{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: black;
+        }
+    }
+
+    &__text{
+        transform: skewX(15deg);
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        font-style: italic;
+        font-weight: 400;
+    }
+}
